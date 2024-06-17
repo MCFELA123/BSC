@@ -332,7 +332,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     transition: all .5s cubic-bezier(0.16, 1, 0.29, 0.99) 0s, background 0s ease 0s;
-    background-image: url(/src/img/forest-bg.png);
+    background-image: url(src/img/forest-bg.png);
     height: 630px;
 }
 
