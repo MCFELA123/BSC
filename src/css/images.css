@@ -90,7 +90,7 @@
     transition: .3s ease;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/0.svg);
+    background-image: url(/src/icons/0.svg);
     margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@
     height: 12.5em;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/1.svg) !important;
+    background-image: url(/src/icons/1.svg) !important;
     margin: 0 auto;
 }
 
@@ -111,7 +111,7 @@
     transition: .3s ease;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/2.svg) !important;
+    background-image: url(/src/icons/2.svg) !important;
     margin: 0 auto;
 }
 
@@ -298,11 +298,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 1.2em 1.2em 0;
+        border-radius: 0 1.2em 1.2em 0;
     }
 
     .input-email {
-        margin-top: 1.25em;
+        margin-top: 0.25em;
         transform: translateY(10px);
     }
 

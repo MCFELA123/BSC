@@ -17,6 +17,14 @@ function darkMode() {
     var main = document.getElementById("main");
     var gradient = document.getElementById("gradient");
     var switcher = document.getElementById("switch");
+    
+    var sun = document.getElementById("sun");
+    var moon = document.getElementById("moon");
+
+    sun.src = 'src/icons/sun02.svg';
+    moon.src = 'src/icons/moon02.svg';
+
+    var switch_bg = document.getElementById("switcher");
     var d3ployCustom = document.getElementById("d3ploy-light-custom");
     var win = document.getElementById("win");
     var ten = document.getElementById("ten-k");
@@ -28,7 +36,7 @@ function darkMode() {
     zig_zag.src = 'src/icons/zig-zag-dark.svg';
       zig_2.src = 'src/icons/zig-zag-2-dark.svg';
 
-           switcher.style.background = '#3538CD';
+           switch_bg.style.background = '#C7D2FE';
 
     var girl = document.getElementById("girl");
     var man_fire = document.getElementById("man-fire");
@@ -70,7 +78,7 @@ elements.forEach(element => {
 const background = document.querySelectorAll('.dark-bg');
 
 background.forEach(element => {
-  element.style.background = '#17152F';
+  element.setAttribute('style', 'background:#17152F !important');
 });
 
 const d3ploy = document.querySelectorAll('.d3ploy-light');
@@ -156,12 +164,17 @@ function sunlight() {
   var main = document.getElementById("main");
   var gradient = document.getElementById("gradient");
   var switcher = document.getElementById("switch");
+  var switch_bg = document.getElementById("switcher");
   var d3ployCustom = document.getElementById("d3ploy-light-custom");
   var win = document.getElementById("win");
   var ten = document.getElementById("ten-k");
 
 
+  var sun = document.getElementById("sun");
+  var moon = document.getElementById("moon");
 
+  sun.src = 'src/icons/sun.svg';
+  moon.src = 'src/icons/moon.svg';
     
   var zig_zag = document.getElementById("zig-zag");
   var zig_2 = document.getElementById("zig-2");
@@ -170,7 +183,7 @@ function sunlight() {
   zig_zag.src = 'src/icons/zig-zag.svg';
     zig_2.src = 'src/icons/zig-zag2.svg';
 
-         switcher.style.background = 'white';
+         switch_bg.style.background = '#e8ebf0';
 
   var girl = document.getElementById("girl");
   var man_fire = document.getElementById("man-fire");
@@ -219,7 +232,7 @@ element.style.background = 'white';
 const d3ploy = document.querySelectorAll('.d3ploy-light');
 
 d3ploy.forEach(element => {
-element.src = '/src/icons/d3ploy-dark.svg';
+element.src = 'src/icons/d3ploy-dark.svg';
 });
 
 const btn_dark = document.querySelectorAll('.dark-btn');

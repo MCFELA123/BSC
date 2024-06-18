@@ -73,6 +73,12 @@
         width: 100% !important;
         border-radius: 0 !important;
     }
+    .links:first-child {
+        display: none;
+    }
+    .links:last-child {
+        width: 100%;
+    }
     .mof {
         margin-top: 20em;
     }
@@ -166,9 +172,23 @@
         display: none !important;
     }
 }
+@media(max-width: 600px) {
+    .d-flex:last-child {
+        height: 618.5em !important;
+    }
+}
 @media(max-width: 489px) {
     .break-txt {
         font-size: 1.5em !important;
+    }
+}
+@media(max-width: 900px) {
+    .d-flex:last-child {
+        height: 589.5em !important;
+    }
+    .foot div {
+        float: none !important;
+        width: 100%;
     }
 }
 @media(max-width: 700px) {
@@ -176,12 +196,14 @@
         transform: translateY(6em);
         width: 70%;
     }
-
+    .d-flex:last-child {
+        height: 608.5em !important;
+    }
     .timeline-progress {
         width: 100%;
     }
     .rule{
-        transform: translateX(5px) !important;
+        transform: translateX(2px) !important;
     }
     .card-gold-container {
         scale: .9;
@@ -209,10 +231,26 @@
     }
 }
 
+@media(max-width: 565px) {
+    .d-flex:last-child {
+        height: 618em !important;
+    }
+}
+
+
 @media(max-width: 450px) {
     .svg-frame {
         transform: translateY(7em);
         width: 70%;
+    }
+    .d-flex:last-child {
+        height: 649.5em !important;
+    }
+}
+
+@media(max-width: 400px) {
+    .d-flex:last-child {
+        height: 653em !important;
     }
 }
 
