@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: fontReg;
-    src: url(/src/fonts/SF-Pro-Rounded-Semibold.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Semibold.otf);
   }
   
   text {
@@ -18,7 +18,7 @@ body {
 
   @font-face {
     font-family: fontLight;
-    src: url(/src/fonts/SF-Pro-Rounded-Medium.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Medium.otf);
   }
   
   .light {
@@ -28,7 +28,7 @@ body {
   
   @font-face {
     font-family: fontLyte;
-    src: url(/src/fonts/SF-Pro-Rounded-Light.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Light.otf);
   }
   
   .lyte {
@@ -37,7 +37,7 @@ body {
 
 @font-face {
     font-family: fontFam;
-    src: url(/src/fonts/SF-Pro-Rounded-Light.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Light.otf);
   }
   
   p {
@@ -46,7 +46,7 @@ body {
 
   @font-face {
     font-family: fontHeavy;
-    src: url(/src/fonts/SF-Pro-Rounded-Heavy.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Heavy.otf);
   }
   
   h2 {
@@ -64,7 +64,7 @@ body {
 
   @font-face {
     font-family: fontBold;
-    src: url(/src/fonts/SF-Pro-Rounded-Bold.otf);
+    src: url(src/fonts/SF-Pro-Rounded-Bold.otf);
   }
 
   .btn-primary {
@@ -337,7 +337,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     transition: all .5s cubic-bezier(0.16, 1, 0.29, 0.99) 0s, background 0s ease 0s;
-    background-image: url(/src/img/forest-bg.png);
+    background-image: url(src/img/forest-bg.png);
     height: 630px;
 }
 
