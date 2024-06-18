@@ -54,6 +54,7 @@
     margin-left: 2em;
     border-radius: 1.5em;
     cursor: pointer;
+    transition: .3s ease;
     transition: .2s ease;
     display: flex;
     align-items: center;
@@ -63,16 +64,19 @@
 
 .card-twit:first-child {
     margin-left: 0;
+    transition: .3s ease;
 }
 
 .twit-content {
     width: 85%;
+    transition: .3s ease;
     height: 85%;
     text-align: start;
     border-radius: inherit;
 }
 
 .dark-texts {
+    transition: .3s ease;
  color: white;
 }
 
@@ -83,9 +87,10 @@
     align-items: center;
     border-radius: inherit;
     height: 12.5em;
+    transition: .3s ease;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/0.svg);
+    background-image: url(/src/icons/0.svg);
     margin: 0 auto;
 }
 
@@ -95,7 +100,7 @@
     height: 12.5em;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/1.svg) !important;
+    background-image: url(/src/icons/1.svg) !important;
     margin: 0 auto;
 }
 
@@ -103,9 +108,10 @@
     width: 96%;
     border-radius: inherit;
     height: 12.5em;
+    transition: .3s ease;
     background-position: center;
     background-size: cover;
-    background-image: url(src/icons/2.svg) !important;
+    background-image: url(/src/icons/2.svg) !important;
     margin: 0 auto;
 }
 
@@ -121,6 +127,7 @@
         width: 50em;
         height: 21em;
         margin: 0 auto;
+        transition: .3s ease;
         border-radius: 3em;
         background: white;
     }
@@ -128,6 +135,7 @@
     .card-prize .prize-card {
         width: 50%;
         float: left;
+        transition: .3s ease;
         height: 21em;
     }
 
@@ -150,11 +158,13 @@
         border-radius: 3em 0 0 3em;
         width: 80%;
         height: 75%;
+        transition: .3s ease;
         text-align: start;
     }
 
     .card-content text {
         line-height: 1.5em;
+        transition: .3s ease;
     }
 
     .rtl-virus {
@@ -182,12 +192,14 @@
         height: 8em;
         border-radius: 7px;
         text-align: center;
+        transition: .3s ease;
         background: white;
     }
 
     .cal-head {
         width: inherit;
         height: 2em;
+        transition: .3s ease;
         border-radius: 7px 7px 0 0;
         background: red;
     }
@@ -195,11 +207,13 @@
     .cal-subhead {
         width: inherit;
         height: 1em;
+        transition: .3s ease;
         background: #ffbbbb;
     }
 
     .hook {
         width: 90%;
+        transition: .3s ease;
         height: 80%;
         margin: 0 auto;
     }
@@ -207,6 +221,7 @@
     .hook .hooks {
         width: 15px;
         height: 15px;
+        transition: .3s ease;
         border-radius: 1em;
         transform: translateY(10px);
     }
@@ -216,6 +231,7 @@
         transform: translateY(-12px) translateX(3.6px);
         box-shadow: 0 3px 4px -2.5px #00000058;
         display: grid;
+        transition: .3s ease;
         justify-content: center;
         background: white;
         border-radius: 1em;
@@ -231,4 +247,111 @@
     .hooks:last-child {
         float: right;
         margin-right: 10px;
+    }
+
+    .news {
+        width: 100%;
+        height: 215px;
+        background: #42307d;
+    }
+
+    .news-letter {
+        width: 90%;
+        height: 215px;
+        transform: translateY(-6.7em);
+        box-shadow: 0 10px 2.5em -2em #000000be;
+        margin: 0 auto;
+        border-radius: 1.2em;
+        background: white;
+    }
+
+    .news-letter .news-room {
+        width: 50%;
+        height: inherit;
+        float: left;
+    }
+
+    .news-details {
+        width: 85%;
+        height: 85%;
+        text-align: start;
+    }
+
+    .news-bg {
+        width: 100%;
+        height: 215px;
+        transition: .3s ease;
+        opacity: 0;
+        transform: translateY(-100%);
+        position: absolute;
+        background: white;
+    }
+
+    .news-room:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.2em 0 0 1.2em;
+    }
+
+    .news-room:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1.2em 1.2em 0;
+    }
+
+    .input-email {
+        margin-top: 1.25em;
+        transform: translateY(10px);
+    }
+
+    .input-email input {
+        width: 70%;
+        height: 3em;
+        text-indent: 1em;
+        outline: 0;
+        border-radius: 8px;
+        transform: translateY(-6px);
+        border: 1.7px solid #a7adbb60;
+    }
+
+    .input-email input::placeholder {
+        color: #7d8496e9;
+        font-size: 17px;
+        transform: translateY(2px);
+    }
+
+    .subscribe-btn {
+        height: 3.4em;
+    }
+    
+    .priv-01 {
+        display: none;
+        margin-top: 10px;
+    }
+    
+    .priv-02 {
+        margin-top: 3px;
+    }
+
+    .break {
+        display: none;
+    }
+
+    .m-up10 {
+        transform: translateY(-3.5px) !important;
+    }
+
+    
+    .m-up30 {
+        transform: translateY(-7.5px) !important;
+    }
+
+    .slideDown {
+        position: fixed;
+    }
+
+    .slideUp {
+        position: absolute;
     }

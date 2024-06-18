@@ -11,8 +11,20 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .grad-bg {
+    background: -webkit-linear-gradient(left, #4776E6, #8E54E9);
+  }
+
   .purple {
     color: #3538CD !important;
+  }
+
+  .purple-col2 {
+    color: #7f56d9;
+  }
+
+  .col-white {
+    color: white;
   }
 
   .yellow {

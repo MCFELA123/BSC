@@ -275,10 +275,17 @@ img {
 }
 
 .day-night {
-  width: 8em;
+  width: 11em;
+  height: 3em;
+  background: unset;
   right: 7%;
   top: 1.5em;
+  z-index: 999;
+  transition: .4s ease;
+  box-shadow: unset;
+  border-radius: 2em;
   display: flex;
+  align-items: center;
   justify-content: center;
   position: absolute;
 }
@@ -289,14 +296,12 @@ img {
 
 .day-night img:first-child {
   position: absolute;
-  left: 0;
-  top: 3px;
+  left: 15px;
 }
 
 .day-night img:last-child {
   position: absolute;
-  right: 0;
-  top: 3px;
+  right: 15px;
 }
 
 .switcher {
@@ -332,7 +337,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     transition: all .5s cubic-bezier(0.16, 1, 0.29, 0.99) 0s, background 0s ease 0s;
-    background-image: url(https://github.com/MCFELA123/BSC/blob/main/src/img/forest-bg.png?raw=true);
+    background-image: url(/src/img/forest-bg.png);
     height: 630px;
 }
 

@@ -97,6 +97,44 @@
     .ltr-virus {
         display: none;
     }
+    .news-room {
+        float: none !important;
+        width: 100% !important;
+        background: white ;
+    }
+    .news-room:first-child {
+        border-radius: 1.2em 1.2em 0 0 !important;
+    }
+    .news-room:last-child {
+        border-radius: 0 0 1.2em 1.2em !important;
+    }
+    .input-email {
+        margin-top: -2em !important;
+    }
+    .news-bg {
+        opacity: 1 !important;
+        height: 300px !important;
+    }
+    .priv-01 {
+        display: block !important;
+    }
+    .priv-02 {
+        display: none;
+    }
+    .break {
+        display: block ;
+    }
+    .input-email input {
+        width: 99% !important;
+    }
+    .news-letter {
+        transform: translateY(-16.7em) !important;
+    }
+    .subscribe-btn {
+        margin-left: 0 !important;
+        margin-top: 2em !important;
+        width: 100% !important;
+    }
     .rtl-virus {
         display: none;
     }
@@ -128,7 +166,11 @@
         display: none !important;
     }
 }
-
+@media(max-width: 489px) {
+    .break-txt {
+        font-size: 1.5em !important;
+    }
+}
 @media(max-width: 700px) {
     .svg-frame {
         transform: translateY(6em);
@@ -247,7 +289,7 @@
     z-index: -99;
     border-radius: 20em;
     margin-right: 0;
-    transition: .3s ease;
+    transition: 1s ease;
     position: absolute;
     visibility: hidden;
     opacity: .5;
