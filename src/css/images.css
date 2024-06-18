@@ -85,7 +85,7 @@
     height: 12.5em;
     background-position: center;
     background-size: cover;
-    background-image: url(/src/icons/0.svg);
+    background-image: url(src/icons/0.svg);
     margin: 0 auto;
 }
 
@@ -95,7 +95,7 @@
     height: 12.5em;
     background-position: center;
     background-size: cover;
-    background-image: url(/src/icons/1.svg) !important;
+    background-image: url(src/icons/1.svg) !important;
     margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@
     height: 12.5em;
     background-position: center;
     background-size: cover;
-    background-image: url(/src/icons/2.svg) !important;
+    background-image: url(src/icons/2.svg) !important;
     margin: 0 auto;
 }
 
