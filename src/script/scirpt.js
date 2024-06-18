@@ -1,3 +1,18 @@
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.documentElement.scrollTop > 550) {
+    document.getElementById("day-night").style.position = "fixed";
+    document.getElementById("day-night").style.background = "#17152F";
+    document.getElementById("day-night").style.boxShadow = "0 0 1em -.3em #17152F";
+  }
+  else {
+    document.getElementById("day-night").style.position = "absolute";
+    document.getElementById("day-night").style.background = "unset";
+    document.getElementById("day-night").style.boxShadow = "unset";
+  }
+}
+
 function darkMode() {
     var main = document.getElementById("main");
     var gradient = document.getElementById("gradient");
@@ -24,6 +39,8 @@ function darkMode() {
     var alien = document.getElementById("alien");
     var alienFoundation = document.getElementById("foundation-alien");
 
+
+
           win.style.background = '#3e1c96';
           guy.src = 'src/icons/ltr-guy-dark.svg';
           guyFoundation.src = 'src/icons/foundation-guy-dark.svg';
@@ -35,7 +52,8 @@ function darkMode() {
           girl.src = 'src/icons/girl-dark.svg';
           man_fire.src = 'src/icons/man-fire-dark.svg';
 
-    d3ployCustom.src = 'src/icons/d3ploy-light-custom.svg';
+
+          d3ployCustom.src = 'src/icons/d3ploy-light-custom.svg';
     switcher.style.marginLeft = '45%';
 gradient.style.visibility = 'visible';
 gradient.style.opacity = '1';
@@ -105,6 +123,25 @@ linear.forEach(element => {
         element.style.background = '#3c1eea';
       });
 
+      const new_text = document.querySelectorAll('.dark-text-news');
+
+      new_text.forEach(element => {
+          element.style.color = 'white';
+        });
+
+        const new_letter = document.querySelectorAll('.newser');
+
+        new_letter.forEach(element => {
+          element.setAttribute('style', 'background:#382167 !important');
+          });
+
+          const new_bg = document.querySelectorAll('.news-bgs');
+
+          new_bg.forEach(element => {
+            element.style.background = '#101828';
+            });
+  
+
 document.getElementById('switch').onclick = sunlight;
 }
 
@@ -143,7 +180,10 @@ function sunlight() {
 
   var alien = document.getElementById("alien");
   var alienFoundation = document.getElementById("foundation-alien");
+  var news_letter = document.getElementById("news-letter");
 
+
+  news_letter.style.background = 'white';
         win.style.background = '#ebe9fe';
         guy.src = 'src/icons/ltr-guy.svg';
         guyFoundation.src = 'src/icons/foundation-guy.svg';
@@ -179,7 +219,7 @@ element.style.background = 'white';
 const d3ploy = document.querySelectorAll('.d3ploy-light');
 
 d3ploy.forEach(element => {
-element.src = 'src/icons/d3ploy-dark.svg';
+element.src = '/src/icons/d3ploy-dark.svg';
 });
 
 const btn_dark = document.querySelectorAll('.dark-btn');
@@ -227,6 +267,25 @@ puple_col.forEach(element => {
     });
 
   
+    const new_text = document.querySelectorAll('.dark-text-news');
+
+    new_text.forEach(element => {
+        element.style.color = '#7f56d9';
+      });
+
+
+      const new_letter = document.querySelectorAll('.newser');
+
+      new_letter.forEach(element => {
+        element.setAttribute('style', 'background:#white !important');
+        });
+
+        const new_bg = document.querySelectorAll('.news-bgs');
+
+        new_bg.forEach(element => {
+          element.style.background = 'white';
+          });
+
 setTimeout(glyt, 0)
 
 
