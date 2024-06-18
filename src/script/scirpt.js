@@ -58,7 +58,7 @@ background.forEach(element => {
 const d3ploy = document.querySelectorAll('.d3ploy-light');
 
 d3ploy.forEach(element => {
-  element.src = '/src/icons/d3ploy-light.svg';
+  element.src = 'src/icons/d3ploy-light.svg';
 });
 
 const btn_dark = document.querySelectorAll('.dark-btn');
@@ -179,7 +179,7 @@ element.style.background = 'white';
 const d3ploy = document.querySelectorAll('.d3ploy-light');
 
 d3ploy.forEach(element => {
-element.src = '/src/icons/d3ploy-dark.svg';
+element.src = 'src/icons/d3ploy-dark.svg';
 });
 
 const btn_dark = document.querySelectorAll('.dark-btn');
