@@ -3,39 +3,62 @@
 }
 
 .icon {
-    z-index: 999;
+
     transition: all .5s cubic-bezier(0.16, 1, 0.29, 0.99) 0s, background 0s ease 0s;
 }
 
+.bg-icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .svg-frame {
-    margin: 0 auto;
-    width: 40%;
-    transform: translateY(14em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 35vmax;
+    transform: translateY(10em);
     text-align: center;
 }
 
 
-.svg-frame svg {
+.svg-frame img {
+    scale: .9;
     width: 100%;
+    height: 100%;
 }
 
 .ltr-img {
-    transform: translateY(16em);
+    align-items: center;
+    justify-content: center;
+    transform: translateY(6em);
     float: left;
-    width: 3vmax;
+    width: 30%;
+    height: 40em;
 }
 
-.ltr-img svg {
+.ltr-img img {
+    scale: .9;
     width: 100%;
+    height: 100%;
 }
 
 .rtl-img {
-    transform: translateY(-14em);
+    align-items: center;
+    justify-content: center;
+    transform: translateY(9em);
     float: right;
+    width: 30%;
+    height: 40em;
 }
 
-.rtl-img svg {
+.rtl-img img {
+    scale: .9;
     width: 100%;
+    height: 100%;
 }
 
 .checked img {
@@ -57,8 +80,7 @@
         height: 550px !important;
     }
     .svg-frame {
-        transform: translateY(9em);
-        width: 40%;
+        transform: translateY(13em);
     }
     .main-content {
         margin-top: 13em !important;
@@ -93,8 +115,7 @@
 
 @media(max-width: 1000px) {
     .svg-frame {
-        transform: translateY(9em);
-        width: 50%;
+        transform: translateY(14em);
     }
     .twit-container {
         display: grid !important;
@@ -177,6 +198,11 @@
         height: 618.5em !important;
     }
 }
+@media(max-width: 645px) {
+    .svg-frame {
+        transform: translateY(14.5em) !important;
+    }
+}
 @media(max-width: 489px) {
     .break-txt {
         font-size: 1.5em !important;
@@ -193,8 +219,7 @@
 }
 @media(max-width: 700px) {
     .svg-frame {
-        transform: translateY(6em);
-        width: 70%;
+        transform: translateY(17.5em);
     }
     .d-flex:last-child {
         height: 608.5em !important;
@@ -235,13 +260,15 @@
     .d-flex:last-child {
         height: 618em !important;
     }
+    .svg-frame {
+        width: 65%;
+    }
 }
 
 
 @media(max-width: 450px) {
     .svg-frame {
         transform: translateY(7em);
-        width: 70%;
     }
     .d-flex:last-child {
         height: 649.5em !important;
@@ -257,7 +284,6 @@
 @media(max-width: 490px) {
     .svg-frame {
         transform: translateY(6em);
-        width: 70%;
     }
     .twit {
         width: 90%;
@@ -293,7 +319,6 @@
 @media(max-width: 400px) {
     .svg-frame {
         transform: translateY(6em);
-        width: 70%;
     }
     .rule{
         transform: translateX(11px) !important;
@@ -316,8 +341,13 @@
 
 @media(max-width: 370px) {
     .svg-frame {
-        transform: translateY(1em);
-        width: 70%;
+        width: 75%;
+    }
+}
+
+@media(max-width: 363px) {
+    .svg-frame {
+        transform: translateY(9.5em) !important;
     }
 }
 
